@@ -19,16 +19,9 @@ export function Home() {
     <View style={{
       flex: 1,
       backgroundColor: '#83C9F4',
-      marginTop: 40,
       justifyContent: 'center',
       alignItems: 'center'
     }}>
-      <Text style={{
-        fontSize: 50,
-        marginBottom: 90
-      }}>
-        Home
-      </Text>
       <Button
         title="Ir para a screen de Backdoor"
         onPress={openScreen}
